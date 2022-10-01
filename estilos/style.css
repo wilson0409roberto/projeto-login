@@ -35,11 +35,14 @@ section#login {
     overflow: hidden;
     /*p/ fazer com que a borda de cima da tela de login fique novamente arredondada; quando foi colocada a imagem, o arrendadado saiu*/
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.45);
+    transition: width .3s, height .03s;
+    transition-timing-function: is;
 }
 section#login > div#imagem {
     display: block;
-    background: #5f2c82 url(../imagens/imagem.png) no-repeat;
-    background-size: contain;
+    background: #5f2c82 url(../imagens/pexels-david-underland-3523621.jpg) no-repeat;
+    background-size: cover;
+    background-position: left center;
     height: 200px;
     /*p/ que a imagem fique na altura de 200px*/
 }
