@@ -7,6 +7,12 @@ Tablet: 768px até 992px
 Desktop: 992px até 1200px
 Grandes telas: acima de 1200px
 */
+/*
+Paleta de cores:
+Verde: #49a09d 
+Lilás: #5f2c82
+*/
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
 /*versão para tablet*/
     body {
@@ -20,7 +26,8 @@ Grandes telas: acima de 1200px
         width: 50vw;
         height: 100vh;
     }
-/*    section#login > div#formulario {
+/*essas linhas de cmd abaixo, criadas pelo professor, não estão funcionando*/
+    /*    section#login > div#formulario {
         float: right;
         width: 70vw;
     }*/
@@ -38,6 +45,7 @@ section#login {
         width: 40vw;
         height: 100vh;
     }
+/*essas linhas de cmd abaixo, criadas pelo professor, não estão funcionando*/
 /*        section#login > div#formulario {
         float: right;
         width: 50vw;
