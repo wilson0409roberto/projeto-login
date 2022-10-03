@@ -15,38 +15,36 @@ Lilás: #5f2c82
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
 /*versão para tablet*/
-    body {
+/*    body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
-    }
+    }*/
     section#login {
         width: 90vw;
     }
-    section#login > div#imagem {
+    /*section#login > div#imagem {
         float: left;
         width: 50vw;
         height: 100vh;
-    }
-/*essas linhas de cmd abaixo, criadas pelo professor, não estão funcionando*/
-    /*    section#login > div#formulario {
-        float: right;
-        width: 70vw;
+    }*/
+    /*section#login > div#formulario {
+        float: left;
+        width: 90vw;
     }*/
 }
-@media screen and (min-width: 992px) {
+/*@media screen and (min-width: 992px) {
 /*versão para desktop*/
-body {
-    background-image: linear-gradient(to top, #49a09d, #5f2c82);
-}
-section#login {
-        width: 990px;
-    }
-    section#login > div#imagem {
-        float: left;
+    /*body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }*/
+    /*section#login {
+        width: 80vw;
+    }*/
+    /*section#login > div#imagem {
+        float: right;
         width: 40vw;
         height: 100vh;
-    }
-/*essas linhas de cmd abaixo, criadas pelo professor, não estão funcionando*/
-/*        section#login > div#formulario {
+    }*/
+    /*section#login > div#formulario {
         float: right;
         width: 50vw;
     }*/
