@@ -49,8 +49,14 @@ section#login > div#imagem {
     /*p/ que a imagem fique na altura de 200px*/
 }
 section#login > div#formulario {
-    background-color: lightgreen;
     display: block;
     /*p/ poder alterar o 'body' no 'mediaquery.css'*/
     padding: 10px;
+}
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+div#formulario > p {
+    font-size: 0.8em;
 }
